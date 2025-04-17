@@ -68,6 +68,7 @@
   .container {
     background-color: transparent;
     padding-inline: 0;
+    padding-top: 0;
   }
 
   .content {

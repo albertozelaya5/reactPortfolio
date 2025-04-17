@@ -46,7 +46,8 @@
 }
 
 .heroImg {
-  width: 30%;
+  margin-top: 2%;
+  width: 20%;
   z-index: 1;
 
   border-radius: 20%;
@@ -107,6 +108,8 @@
   }
 
   .heroImg {
-    width: 40%;
+  margin-top: 10%;
+
+    width: 50%;
   }
 }
