@@ -1,4 +1,4 @@
-import { bankist, bankistApp, developerSite, guessNumber, mapty, pigGame } from "../assets";
+import { bankist, bankistApp, developerSite, guessNumber, mapty, pigGame, forkifyApp } from "../assets";
 
 export default [
   {
@@ -11,6 +11,14 @@ export default [
   },
   {
     title: "Project B",
+    imageSrc: forkifyApp,
+    description: "This app handles Create and Read operations with asynchronous API calls and follows the MVC architecture, focused on recipes.",
+    skills: ["Javascript", "API", "MVC"],
+    demo: "https://forkify-albertozelaya5.netlify.app/",
+    source: "https://github.com/albertozelaya5/forkify-app",
+  },
+  {
+    title: "Project C",
     imageSrc: mapty,
     description:
       "This project was built to learn how to use the Leaflet library, logging workouts anywhere in the world.",
@@ -19,7 +27,7 @@ export default [
     source: "https://github.com/albertozelaya5/maptyApp",
   },
   {
-    title: "Project C",
+    title: "Project D",
     imageSrc: bankist,
     description:
       "This project was created as a main page concept for a bank, exploring the benefits of a modern interface.",
@@ -28,7 +36,7 @@ export default [
     source: "https://github.com/albertozelaya5/bakistApp",
   },
   {
-    title: "Project D",
+    title: "Project E",
     imageSrc: bankistApp,
     description:
       "This project simulates a banking platform with login protection, allowing users to send and receive transfers, request loans, and with a logout timer.",
@@ -37,7 +45,7 @@ export default [
     source: "https://github.com/albertozelaya5/timerBankistApp",
   },
   {
-    title: "Project E",
+    title: "Project F",
     imageSrc: pigGame,
     description: "This is a two-player dice game where the player with the highest score wins.",
     skills: ["Javascript", "HTML", "CSS"],
@@ -45,7 +53,7 @@ export default [
     source: "https://github.com/albertozelaya5/pigGame",
   },
   {
-    title: "Project F",
+    title: "Project G",
     imageSrc: guessNumber,
     description: "This is a number guessing game based on scoring.",
     skills: ["Javascript", "HTML", "CSS"],
