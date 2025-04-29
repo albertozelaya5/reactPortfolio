@@ -13,6 +13,7 @@ export const Navbar = () => {
       <div className={styles.menu}>
         <img
           //
+          loading="lazy"
           className={styles.menuBtn}
           src={menuOpen ? closeIcon : menuIcon}
           alt="menu-button"
