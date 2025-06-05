@@ -15,6 +15,7 @@
 }
 
 .title {
+  text-transform: capitalize;
   font-size: 25px;
   font-weight: 700;
 }
@@ -35,7 +36,7 @@
   list-style: none;
 }
 
-.skill{
+.skill {
   font-size: 25px;
   font-weight: 400;
   border-radius: 100px;
@@ -43,14 +44,14 @@
   padding: 2px 22px;
 }
 
-.links{
+.links {
   width: 100%;
   margin-top: 26px;
   display: flex;
   justify-content: space-around;
 }
 
-.link{
+.link {
   text-decoration: none;
   color: var(--color-text);
   font-size: 30px;

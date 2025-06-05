@@ -11,16 +11,18 @@ import closeIcon from "./nav/closeIcon.png";
 import menuIcon from "./nav/menuIcon.png";
 import bankist from "./projects/bankist.png";
 import bankistApp from "./projects/bankistApp.png";
-import forkifyApp from "./projects/forkifyApp.png";
 import developerSite from "./projects/developerSite.png";
+import forkifyApp from "./projects/forkifyApp.png";
 import guessNumber from "./projects/guessNumber.png";
 import mapty from "./projects/mapty.png";
 import pigGame from "./projects/pigGame.png";
+import shoppingList from "./projects/shoppingList.png";
 import css from "./skills/css.png";
 import figma from "./skills/figma.png";
 import html from "./skills/html.png";
 import javascript from "./skills/javascript.png";
 import react from "./skills/react.png";
+import tailwind from "./skills/tailwind.png";
 import typescript from "./skills/typescript.png";
 
 export {
@@ -36,9 +38,9 @@ export {
   earthlink,
   emailIcon,
   figma,
+  forkifyApp,
   githubIcon,
   guessNumber,
-  forkifyApp,
   heroImage,
   html,
   javascript,
@@ -47,7 +49,8 @@ export {
   menuIcon,
   pigGame,
   react,
+  shoppingList,
+  tailwind,
   typescript,
-  uiIcon
+  uiIcon,
 };
-

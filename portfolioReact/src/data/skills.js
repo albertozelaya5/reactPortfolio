@@ -1,6 +1,18 @@
-import { css, figma, html, javascript, react, typescript } from "../assets/index";
+import { css, figma, html, javascript, react, tailwind, typescript } from "../assets/index";
 
 export default [
+  {
+    title: "React",
+    imageSrc: react,
+  },
+  {
+    title: "Javascript",
+    imageSrc: javascript,
+  },
+  {
+    title: "Typescript",
+    imageSrc: typescript,
+  },
   {
     title: "HTML",
     imageSrc: html,
@@ -10,19 +22,11 @@ export default [
     imageSrc: css,
   },
   {
-    title: "Javascript",
-    imageSrc: javascript,
-  },
-  {
-    title: "React",
-    imageSrc: react,
-  },
-  {
-    title: "Typescript",
-    imageSrc: typescript,
-  },
-  {
     title: "Figma",
     imageSrc: figma,
+  },
+  {
+    title: "Tailwind",
+    imageSrc: tailwind,
   },
 ];

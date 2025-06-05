@@ -1,8 +1,8 @@
-import { bankist, bankistApp, developerSite, guessNumber, mapty, pigGame, forkifyApp } from "../assets";
+import { bankist, bankistApp, developerSite, forkifyApp, guessNumber, mapty, pigGame, shoppingList } from "../assets";
 
 export default [
   {
-    title: "Project A",
+    title: "Developer site",
     imageSrc: developerSite,
     description: "This project was made to explore different APIs and learn how to handle JSON data.",
     skills: ["React", "Shadcn/Ui", "Tailwind", "Strapi"],
@@ -10,15 +10,25 @@ export default [
     source: "https://github.com/albertozelaya5/developerSite",
   },
   {
-    title: "Project B",
+    title: "Forkify app",
     imageSrc: forkifyApp,
-    description: "This app handles Create and Read operations with asynchronous API calls and follows the MVC architecture, focused on recipes.",
+    description:
+      "This app handles Create and Read operations with asynchronous API calls and follows the MVC architecture, focused on recipes.",
     skills: ["Javascript", "API", "MVC"],
     demo: "https://forkify-albertozelaya5.netlify.app/",
     source: "https://github.com/albertozelaya5/forkify-app",
   },
   {
-    title: "Project C",
+    title: "Shopping list",
+    imageSrc: shoppingList,
+    description:
+      "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
+    skills: ["React", "JSON", "CSS Modules"],
+    demo: "https://forkify-albertozelaya5.netlify.app/",
+    source: "https://github.com/albertozelaya5/forkify-app",
+  },
+  {
+    title: "Mapty App",
     imageSrc: mapty,
     description:
       "This project was built to learn how to use the Leaflet library, logging workouts anywhere in the world.",
@@ -27,7 +37,7 @@ export default [
     source: "https://github.com/albertozelaya5/maptyApp",
   },
   {
-    title: "Project D",
+    title: "Bankist landing site",
     imageSrc: bankist,
     description:
       "This project was created as a main page concept for a bank, exploring the benefits of a modern interface.",
@@ -36,7 +46,7 @@ export default [
     source: "https://github.com/albertozelaya5/bakistApp",
   },
   {
-    title: "Project E",
+    title: "Bankist application",
     imageSrc: bankistApp,
     description:
       "This project simulates a banking platform with login protection, allowing users to send and receive transfers, request loans, and with a logout timer.",
@@ -45,7 +55,7 @@ export default [
     source: "https://github.com/albertozelaya5/timerBankistApp",
   },
   {
-    title: "Project F",
+    title: "Pig game",
     imageSrc: pigGame,
     description: "This is a two-player dice game where the player with the highest score wins.",
     skills: ["Javascript", "HTML", "CSS"],
@@ -53,7 +63,7 @@ export default [
     source: "https://github.com/albertozelaya5/pigGame",
   },
   {
-    title: "Project G",
+    title: "Guess my number",
     imageSrc: guessNumber,
     description: "This is a number guessing game based on scoring.",
     skills: ["Javascript", "HTML", "CSS"],
