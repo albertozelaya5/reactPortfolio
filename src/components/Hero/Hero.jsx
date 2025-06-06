@@ -6,7 +6,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I&apos;m Albert</h1>
         <p className={styles.description}>
-          Im a Front-end Developer with strong skills in Javascript, React and Figma. Reach out if you would like to
+          Im a Front-end Developer with strong skills in Javascript, Typescript, React and Figma. Reach out if you would like to
           learn more!
         </p>
         <a href="mailto:albertolaniman@gmail.com" className={styles.contactBtn}>

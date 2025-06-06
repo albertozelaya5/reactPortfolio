@@ -1,7 +1,5 @@
 import emailIcon from "../assets/contact/emailIcon.png";
 import aboutImage from "./about/aboutImage.png";
-import cursorIcon from "./about/cursorIcon.png";
-import uiIcon from "./about/uiIcon.png";
 import githubIcon from "./contact/githubIcon.png";
 import linkedinIcon from "./contact/linkedinIcon.png";
 import heroImage from "./hero/heroImage.png";
@@ -33,7 +31,6 @@ export {
   bankistApp,
   closeIcon,
   css,
-  cursorIcon,
   developerSite,
   earthlink,
   emailIcon,
@@ -51,6 +48,6 @@ export {
   react,
   shoppingList,
   tailwind,
-  typescript,
-  uiIcon,
+  typescript
 };
+

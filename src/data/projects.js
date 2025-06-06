@@ -25,7 +25,7 @@ export default [
       "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
     skills: ["React", "JSON", "CSS Modules"],
     demo: "https://forkify-albertozelaya5.netlify.app/",
-    source: "https://github.com/albertozelaya5/forkify-app",
+    source: "https://github.com/albertozelaya5/shoppingList",
   },
   {
     title: "Mapty App",

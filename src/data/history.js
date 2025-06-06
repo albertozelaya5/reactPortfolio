@@ -7,9 +7,9 @@ export default [
     startDate: "Jun, 2024",
     endDate: "Present",
     experiences: [
-      "Developed and maintained React apps with JSON",
-      "Optimized data handling using async techniques",
-      "Customized DevExtreme for interactive UIs",
+      "Migrated legacy codebase to TypeScript, boosting performance by 40% in a 200+ banking platform (Aurora)",
+      "Built interactive dashboards and charts for large-scale banking and demand systems",
+      "Developed internal tools from scratch, including a request manager and marketplace app.",
     ],
     imageSrc: banhcafe,
   },
@@ -18,7 +18,11 @@ export default [
     organisation: "Banhcafe",
     startDate: "Feb, 2024",
     endDate: "May, 2024",
-    experiences: ["Developed 20+ CRUD applications", "Improved load performance by 25%"],
+    experiences: [
+      "Built a secure, login-enabled site with global state and banking API integration",
+      "Delivered 20+ internal CRUD screens aligned with backend logic",
+      "Ensured seamless API integration through close backend collaboration.",
+    ],
     imageSrc: banhcafe,
   },
   {
@@ -28,8 +32,8 @@ export default [
     endDate: "Nov, 2021",
     experiences: [
       "Delivered bilingual support for AT&T, CenturyLink, and Frontier",
+      "Translated and interpreted for real-time global team communication",
       "Resolved customer issues efficiently",
-      "Collaborated to meet service goals",
     ],
     imageSrc: earthlink,
   },
