@@ -32,6 +32,7 @@ This project showcases my skills through various interactive and responsive web 
 ## 🔗 Live Portfolio & Source
 
 > 💼 GitHub Repo: [reactPortfolio](https://github.com/albertozelaya5/reactPortfolio)
+
 > 🌐 Official Site: [reactPortfolioSite]([https://github.com/albertozelaya5/reactPortfolio](https://portfolio-albertozelaya5.netlify.app/))
 ---
 
