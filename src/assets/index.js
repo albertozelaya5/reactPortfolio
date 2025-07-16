@@ -10,6 +10,7 @@ import menuIcon from "./nav/menuIcon.png";
 import bankist from "./projects/bankist.png";
 import bankistApp from "./projects/bankistApp.png";
 import developerSite from "./projects/developerSite.png";
+import usePopcornApp from "./projects/usepopcorn.png";
 import forkifyApp from "./projects/forkifyApp.png";
 import guessNumber from "./projects/guessNumber.png";
 import mapty from "./projects/mapty.png";
@@ -41,6 +42,7 @@ export {
   heroImage,
   html,
   javascript,
+  usePopcornApp,
   linkedinIcon,
   mapty,
   menuIcon,

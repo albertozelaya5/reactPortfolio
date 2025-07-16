@@ -1,6 +1,25 @@
-import { bankist, bankistApp, developerSite, forkifyApp, guessNumber, mapty, pigGame, shoppingList } from "../assets";
+import {
+  bankist,
+  bankistApp,
+  developerSite,
+  forkifyApp,
+  guessNumber,
+  mapty,
+  pigGame,
+  shoppingList,
+  usePopcornApp,
+} from "../assets";
 
 export default [
+  {
+    title: "usePopcorn App",
+    imageSrc: usePopcornApp,
+    description:
+      "This movie app search, rate, and add movies to a personal watchlist, with a public API",
+    skills: ["React", "Custom Hooks", "OMDb API", "LocalStorage"],
+    demo: "https://usepopcornreact.netlify.app/",
+    source: "https://github.com/albertozelaya5/usePopcorn",
+  },
   {
     title: "Developer site",
     imageSrc: developerSite,
