@@ -59,6 +59,7 @@
   width: 45%;
   display: flex;
   flex-direction: column;
+  /* flex */
   gap: 40px;
 }
 
@@ -97,12 +98,12 @@
 }
 
 /* List items */
-.listItem{
+.listItem {
   letter-spacing: 1px;
   line-height: 1.5;
   margin-top: 1.6px;
 }
-.listItem:first-child{
+.listItem:first-child {
   margin-top: 0;
 }
 
@@ -119,10 +120,12 @@
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    order: 2;
   }
 
   .history {
     width: 100%;
     gap: 9px;
+    order: 1;
   }
 }

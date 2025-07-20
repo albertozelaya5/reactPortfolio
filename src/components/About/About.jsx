@@ -1,4 +1,3 @@
-import { aboutImage } from "../../assets/index";
 import styles from "./About.module.css";
 
 export const About = () => {
@@ -6,7 +5,7 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <img loading="lazy" src={aboutImage} alt="Me sitting with a laptop" className={styles.aboutImage} />
+        {/* <img loading="lazy" src={heroImage} alt="Me sitting with a laptop" className={styles.aboutImage} /> */}
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <Icon iconName="cursor" />
