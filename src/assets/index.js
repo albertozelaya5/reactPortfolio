@@ -1,7 +1,7 @@
 import emailIcon from "../assets/contact/emailIcon.png";
 import aboutImage from "./about/aboutImage.png";
 import githubIcon from "./contact/githubIcon.png";
-import linkedinIcon from "./contact/linkedinIcon.png";
+import linkedInIcon from "./contact/linkedinIcon.png";
 import heroImage from "./hero/heroImage.png";
 import banhcafe from "./history/banhcafe.png";
 import earthlink from "./history/earthlink.png";
@@ -43,7 +43,7 @@ export {
   html,
   javascript,
   usePopcornApp,
-  linkedinIcon,
+  linkedInIcon,
   mapty,
   menuIcon,
   pigGame,

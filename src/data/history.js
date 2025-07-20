@@ -3,7 +3,7 @@ import { banhcafe, earthlink } from "../assets";
 export default [
   {
     role: "Front-End Developer",
-    organisation: "Banhcafe",
+    organization: "Banhcafe",
     startDate: "Jun, 2024",
     endDate: "Present",
     experiences: [
@@ -15,7 +15,7 @@ export default [
   },
   {
     role: "Front-End Developer Intern",
-    organisation: "Banhcafe",
+    organization: "Banhcafe",
     startDate: "Feb, 2024",
     endDate: "May, 2024",
     experiences: [
@@ -27,7 +27,7 @@ export default [
   },
   {
     role: "Live Agent",
-    organisation: "EarthLink",
+    organization: "EarthLink",
     startDate: "Aug, 2021",
     endDate: "Nov, 2021",
     experiences: [

@@ -1,4 +1,4 @@
-import { emailIcon, githubIcon, linkedinIcon } from "../../assets";
+import { emailIcon, githubIcon, linkedInIcon } from "../../assets";
 import styles from "./Contact.module.css";
 
 export const Contact = () => {
@@ -15,7 +15,7 @@ export const Contact = () => {
         </li>
 
         <li className={styles.link}>
-          <img loading="lazy" src={linkedinIcon} alt="Linkedin icon" />
+          <img loading="lazy" src={linkedInIcon} alt="Linkedin icon" />
           <a target="_blank" href="https://www.linkedin.com/in/alberto-zelaya-b2a3ba210/">linkedin.com/albertozelaya</a>
         </li>
 

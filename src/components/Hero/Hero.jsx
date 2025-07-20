@@ -1,4 +1,3 @@
-import { heroImage } from "../../assets/index";
 import styles from "./Hero.module.css";
 
 export const Hero = () => {

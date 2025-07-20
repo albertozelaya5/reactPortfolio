@@ -1,6 +1,18 @@
 import styles from "./ProjectCard.module.css";
+import PropTypes from "prop-types";
 
-export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source } }) => {
+ProjectCard.propTypes = {
+  project: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    imageSrc: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    skills: PropTypes.array.isRequired,
+    demo: PropTypes.string.isRequired,
+    source: PropTypes.string.isRequired,
+  }),
+};
+
+export function ProjectCard({ project: { title, imageSrc, description, skills, demo, source } }) {
   return (
     <div className={styles.container}>
       <img loading="lazy" className={styles.img} src={imageSrc} alt={`Image of ${title}`} />
@@ -17,7 +29,7 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
       </ul>
       <div className={styles.links}>
         {demo && (
-          <a className={styles.link} href={demo}>
+          <a target="_blank" className={styles.link} href={demo}>
             Demo
           </a>
         )}
@@ -27,4 +39,4 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
       </div>
     </div>
   );
-};
+}
