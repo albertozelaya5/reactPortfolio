@@ -19,6 +19,7 @@ export const Experience = () => {
             );
           })}
         </div>
+        
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (
