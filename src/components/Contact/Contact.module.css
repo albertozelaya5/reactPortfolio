@@ -38,7 +38,8 @@
   gap: 25px;
 }
 
-.link a:link, .link a:visited  {
+.link a:link,
+.link a:visited {
   color: var(--color-text);
   text-decoration: none;
   font-size: 30px;
@@ -62,7 +63,8 @@
     align-items: center;
   }
 
-  .link a:link, .link a:visited  {
-    font-size: 1.6rem;
+  .link a:link,
+  .link a:visited {
+    font-size: 1.3rem;
   }
 }
