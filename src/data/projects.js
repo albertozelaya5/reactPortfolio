@@ -1,19 +1,9 @@
-import {
-  bankist,
-  bankistApp,
-  developerSite,
-  forkifyApp,
-  guessNumber,
-  mapty,
-  pigGame,
-  shoppingList,
-  usePopcornApp,
-} from "../assets";
+import { imgSrc } from "../assets";
 
 export default [
   {
     title: "usePopcorn App",
-    imageSrc: usePopcornApp,
+    imageSrc: imgSrc("projects/usepopcorn"),
     description:
       "This movie app search, rate, and add movies to a personal watchlist, with a public API",
     skills: ["React", "Custom Hooks", "OMDb API", "LocalStorage"],
@@ -22,15 +12,16 @@ export default [
   },
   {
     title: "Developer site",
-    imageSrc: developerSite,
-    description: "This project was made to explore different APIs and learn how to handle JSON data.",
+    imageSrc: imgSrc("projects/developerSite"),
+    description:
+      "This project was made to explore different APIs and learn how to handle JSON data.",
     skills: ["React", "Shadcn/Ui", "Tailwind", "Strapi"],
     demo: "",
     source: "https://github.com/albertozelaya5/developerSite",
   },
   {
     title: "Forkify app",
-    imageSrc: forkifyApp,
+    imageSrc: imgSrc("projects/forkifyApp"),
     description:
       "This app handles Create and Read operations with asynchronous API calls and follows the MVC architecture, focused on recipes.",
     skills: ["Javascript", "API", "MVC"],
@@ -39,7 +30,7 @@ export default [
   },
   {
     title: "Shopping list",
-    imageSrc: shoppingList,
+    imageSrc: imgSrc("projects/shoppingList"),
     description:
       "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
     skills: ["React", "JSON", "CSS Modules"],
@@ -48,7 +39,7 @@ export default [
   },
   {
     title: "Mapty App",
-    imageSrc: mapty,
+    imageSrc: imgSrc("projects/mapty"),
     description:
       "This project was built to learn how to use the Leaflet library, logging workouts anywhere in the world.",
     skills: ["Javascript", "Leaflet", "LocalStorage"],
@@ -57,7 +48,7 @@ export default [
   },
   {
     title: "Bankist landing site",
-    imageSrc: bankist,
+    imageSrc: imgSrc("projects/bankist"),
     description:
       "This project was created as a main page concept for a bank, exploring the benefits of a modern interface.",
     skills: ["Javascript", "DOM", "CSS"],
@@ -66,7 +57,7 @@ export default [
   },
   {
     title: "Bankist application",
-    imageSrc: bankistApp,
+    imageSrc: imgSrc("projects/bankistApp"),
     description:
       "This project simulates a banking platform with login protection, allowing users to send and receive transfers, request loans, and with a logout timer.",
     skills: ["Javascript", "Intl API", "CSS"],
@@ -75,15 +66,16 @@ export default [
   },
   {
     title: "Pig game",
-    imageSrc: pigGame,
-    description: "This is a two-player dice game where the player with the highest score wins.",
+    imageSrc: imgSrc("projects/pigGame"),
+    description:
+      "This is a two-player dice game where the player with the highest score wins.",
     skills: ["Javascript", "HTML", "CSS"],
     demo: "",
     source: "https://github.com/albertozelaya5/pigGame",
   },
   {
     title: "Guess my number",
-    imageSrc: guessNumber,
+    imageSrc: imgSrc("projects/guessNumber"),
     description: "This is a number guessing game based on scoring.",
     skills: ["Javascript", "HTML", "CSS"],
     demo: "",

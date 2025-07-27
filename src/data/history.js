@@ -1,4 +1,4 @@
-import { banhcafe, earthlink } from "../assets";
+import { imgSrc } from "../assets";
 
 export default [
   {
@@ -11,7 +11,7 @@ export default [
       "Built interactive dashboards and charts for large-scale banking and demand systems",
       "Developed internal tools from scratch, including a request manager and marketplace app.",
     ],
-    imageSrc: banhcafe,
+    imageSrc: imgSrc("history/banhcafe"),
   },
   {
     role: "Front-End Developer Intern",
@@ -23,7 +23,7 @@ export default [
       "Delivered 20+ internal CRUD screens aligned with backend logic",
       "Ensured seamless API integration through close backend collaboration.",
     ],
-    imageSrc: banhcafe,
+    imageSrc: imgSrc("history/banhcafe"),
   },
   {
     role: "Live Agent",
@@ -35,6 +35,6 @@ export default [
       "Translated and interpreted for real-time global team communication",
       "Resolved customer issues efficiently",
     ],
-    imageSrc: earthlink,
+    imageSrc: imgSrc("history/earthlink"),
   },
 ];
