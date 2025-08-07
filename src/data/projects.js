@@ -4,8 +4,7 @@ export default [
   {
     title: "usePopcorn App",
     imageSrc: imgSrc("projects/usepopcorn"),
-    description:
-      "This movie app search, rate, and add movies to a personal watchlist, with a public API",
+    description: "This movie app search, rate, and add movies to a personal watchlist, with a public API",
     skills: ["React", "Custom Hooks", "OMDb API", "LocalStorage"],
     demo: "https://usepopcornreact.netlify.app/",
     source: "https://github.com/albertozelaya5/usePopcorn",
@@ -13,8 +12,7 @@ export default [
   {
     title: "Developer site",
     imageSrc: imgSrc("projects/developerSite"),
-    description:
-      "This project was made to explore different APIs and learn how to handle JSON data.",
+    description: "This project was made to explore different APIs and learn how to handle JSON data.",
     skills: ["React", "Shadcn/Ui", "Tailwind", "Strapi"],
     demo: "",
     source: "https://github.com/albertozelaya5/developerSite",
@@ -29,13 +27,13 @@ export default [
     source: "https://github.com/albertozelaya5/forkify-app",
   },
   {
-    title: "Shopping list",
-    imageSrc: imgSrc("projects/shoppingList"),
+    title: "React Quiz App",
+    imageSrc: imgSrc("projects/reactQuiz"),
     description:
-      "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
-    skills: ["React", "JSON", "CSS Modules"],
-    demo: "https://shoppinglistreactapp.netlify.app/",
-    source: "https://github.com/albertozelaya5/shoppingList",
+      "A dynamic quiz, featuring a timer, high score tracking, and replay functionality. Uses JSON Server to simulate an API and manages all state transitions with useReducer.",
+    skills: ["React", "useReducer", "JSON Server", "State Management"],
+    demo: "https://reactquizappal.netlify.app/",
+    source: "https://github.com/albertozelaya5/reactQuizApp",
   },
   {
     title: "Mapty App",
@@ -45,6 +43,15 @@ export default [
     skills: ["Javascript", "Leaflet", "LocalStorage"],
     demo: "https://workoutmaptyapp.netlify.app/",
     source: "https://github.com/albertozelaya5/maptyApp",
+  },
+  {
+    title: "Shopping list",
+    imageSrc: imgSrc("projects/shoppingList"),
+    description:
+      "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
+    skills: ["React", "JSON", "CSS Modules"],
+    demo: "https://shoppinglistreactapp.netlify.app/",
+    source: "https://github.com/albertozelaya5/shoppingList",
   },
   {
     title: "Bankist landing site",
@@ -67,8 +74,7 @@ export default [
   {
     title: "Pig game",
     imageSrc: imgSrc("projects/pigGame"),
-    description:
-      "This is a two-player dice game where the player with the highest score wins.",
+    description: "This is a two-player dice game where the player with the highest score wins.",
     skills: ["Javascript", "HTML", "CSS"],
     demo: "",
     source: "https://github.com/albertozelaya5/pigGame",
