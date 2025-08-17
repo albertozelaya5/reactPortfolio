@@ -76,7 +76,7 @@ export default [
     imageSrc: imgSrc("projects/pigGame"),
     description: "This is a two-player dice game where the player with the highest score wins.",
     skills: ["Javascript", "HTML", "CSS"],
-    demo: "",
+    demo: "https://alpiggame.netlify.app/",
     source: "https://github.com/albertozelaya5/pigGame",
   },
   {
@@ -84,7 +84,7 @@ export default [
     imageSrc: imgSrc("projects/guessNumber"),
     description: "This is a number guessing game based on scoring.",
     skills: ["Javascript", "HTML", "CSS"],
-    demo: "",
+    demo: "https://alguessmynumberapp.netlify.app/",
     source: "https://github.com/albertozelaya5/guessMyNumberApp",
   },
 ];
