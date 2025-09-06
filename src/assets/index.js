@@ -1,8 +1,8 @@
-const images = import.meta.glob("./**/*.png", {
+const images = import.meta.glob("./**/*.webp", {
   eager: true,
   import: "default",
 });
 
 export function imgSrc(path) {
-  return images[`./${path}.png`];
+  return images[`./${path}.webp`];
 }
