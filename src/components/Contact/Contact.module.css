@@ -2,24 +2,24 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 120px;
+  margin-top: 12rem;
   background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
   padding: 58px 10%;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .text h2 {
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 700;
   letter-spacing: 4px;
 }
 
 .text p {
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -29,28 +29,42 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 25px;
+  gap: 2.4rem;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 2.4rem;
 }
 
 .link a:link,
 .link a:visited {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 400;
   letter-spacing: 1.5px;
 }
 
-@media screen and (max-width: 830px) {
+/* 1250px Approx */
+@media (max-width: 78em) {
+  .text h2 {
+    font-size: 5.6rem;
+  }
+
+  .link a:link,
+  .link a:visited {
+    font-size: 2.4rem;
+  }
+}
+
+/* 832px Approx */
+
+@media (max-width: 52em) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    gap: 3.6rem;
   }
 
   .text {
@@ -65,6 +79,39 @@
 
   .link a:link,
   .link a:visited {
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
 }
+
+/* 640px Approx */
+@media (max-width: 40em) {
+  .container {
+    padding: 4.8rem 10%;
+    gap: 10px;
+  }
+
+  .text p {
+    font-size: 3.2rem;
+  }
+
+  .text {
+    margin-bottom: 2.4rem;
+  }
+
+  .link {
+    gap: 1.6rem;
+  }
+
+  .link a:link,
+  .link a:visited {
+    font-size: 1.8rem;
+  }
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/

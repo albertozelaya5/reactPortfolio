@@ -1,28 +1,78 @@
 @import "../../vars.css";
 
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+
+
+- Line heights
+
+
+- Letter spacing
+
+
+--- 02 COLORS
+
+
+- Shades: 
+
+- Accents:
+- Greys
+
+- Tints:
+
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
 .container {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
+  box-shadow: 0 1.6rem 1.4rem 0 #04152d;
+  padding: 1.8rem 2.4rem;
+  max-width: 35rem;
+  position: relative;
+
+  overflow: hidden;
 }
 
 .img {
-  margin-bottom: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 22rem;
+
+  object-fit: cover;
 }
 
+/* margin-bottom: 2.6rem; */
+
 .title {
+  margin-top: 24rem;
   text-transform: capitalize;
-  font-size: 25px;
+  font-size: 2.4rem;
   font-weight: 700;
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 25px;
+  margin-top: 0.6rem;
+  font-size: 2.4rem;
   font-weight: 400;
 }
 
@@ -32,21 +82,21 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 0.6rem;
   list-style: none;
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 2.4rem;
   font-weight: 400;
-  border-radius: 100px;
+  border-radius: 10rem;
   background: var(--color-dark);
-  padding: 2px 22px;
+  padding: 0.2rem 2.2rem;
 }
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: 2.6rem;
   display: flex;
   justify-content: space-around;
 }
@@ -54,9 +104,42 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 600;
-  border-radius: 100px;
+  border-radius: 10rem;
   background: var(--color-primary);
-  padding: 1px 22px;
+  padding: 1px 2.2rem;
+}
+
+/* 1250px Approx */
+@media (max-width: 78em) {
+  .container {
+    position: relative;
+  }
+
+  .img {
+    margin-bottom: 4.4rem;
+  }
+
+  .title {
+    margin-bottom: 0.8rem;
+  }
+
+  .description {
+    font-size: 2.4rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .skills {
+    margin-bottom: 8rem;
+  }
+
+  .links {
+    position: absolute;
+    bottom: 3.2rem;
+    gap: 3.2rem;
+    left: 0;
+
+    justify-content: center;
+  }
 }
