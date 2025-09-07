@@ -5,8 +5,8 @@ export default [
     title: "usePopcorn App",
     imageSrc: imgSrc("projects/usepopcorn"),
     description:
-      "This movie app search, rate, and add movies to a personal watchlist, with a public API",
-    skills: ["React", "Custom Hooks", "OMDb API", "LocalStorage"],
+      "Search, rate, and add movies to a personal watchlist, with a public API",
+    skills: ["React", "Hooks", "OMDb API", "LocalStorage"],
     demo: "https://usepopcornreact.netlify.app/",
     source: "https://github.com/albertozelaya5/usePopcorn",
   },
@@ -23,7 +23,7 @@ export default [
     title: "Forkify app",
     imageSrc: imgSrc("projects/forkifyApp"),
     description:
-      "This app handles Create and Read operations with asynchronous API calls and follows the MVC architecture, focused on recipes.",
+      "Create and Read operations with asynchronous API calls and follows the MVC architecture, focused on recipes.",
     skills: ["Javascript", "API", "MVC"],
     demo: "https://forkify-albertozelaya5.netlify.app/",
     source: "https://github.com/albertozelaya5/forkify-app",
@@ -32,10 +32,10 @@ export default [
     title: "Shopping list",
     imageSrc: imgSrc("projects/shoppingList"),
     description:
-      "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
-    skills: ["React", "JSON", "CSS Modules"],
-    demo: "https://shoppinglistreactapp.netlify.app/",
-    source: "https://github.com/albertozelaya5/shoppingList",
+      "A dynamic quiz, featuring a timer, high score tracking, and replay functionality. simulating an API.",
+    skills: ["React", "useReducer", "JSON Server", "State Management"],
+    demo: "https://reactquizappal.netlify.app/",
+    source: "https://github.com/albertozelaya5/reactQuizApp",
   },
   {
     title: "Mapty App",
@@ -59,7 +59,7 @@ export default [
     title: "Bankist application",
     imageSrc: imgSrc("projects/bankistApp"),
     description:
-      "This project simulates a banking platform with login protection, allowing users to send and receive transfers, request loans, and with a logout timer.",
+      "Banking platform with login protection, allowing users to send and receive transfers, request loans, and with a logout timer.",
     skills: ["Javascript", "Intl API", "CSS"],
     demo: "https://timerbankistapp.netlify.app/",
     source: "https://github.com/albertozelaya5/timerBankistApp",
