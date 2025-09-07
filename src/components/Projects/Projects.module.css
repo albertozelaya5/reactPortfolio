@@ -1,25 +1,25 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 75px;
+  margin-top: 7.4rem;
   color: var(--color-text);
   margin-inline: 10%;
 }
 
 .title {
-  font-size: 35px;
+  font-size: 3.6rem;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
 
 .projects {
-  margin-top: 37px;
+  margin-top: 3.6rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 1.6rem;
   width: 100%;
 }
