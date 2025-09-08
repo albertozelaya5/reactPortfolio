@@ -4,8 +4,7 @@ export default [
   {
     title: "usePopcorn App",
     imageSrc: imgSrc("projects/usepopcorn"),
-    description:
-      "Search, rate, and add movies to a personal watchlist, with a public API",
+    description: "Search, rate, and add movies to a personal watchlist, with a public API",
     skills: ["React", "Hooks", "OMDb API", "LocalStorage"],
     demo: "https://usepopcornreact.netlify.app/",
     source: "https://github.com/albertozelaya5/usePopcorn",
@@ -30,8 +29,7 @@ export default [
   {
     title: "React Quiz App",
     imageSrc: imgSrc("projects/reactQuiz"),
-    description:
-      "A dynamic quiz, featuring a timer, high score tracking, and replay functionality. simulating an API.",
+    description: "A dynamic quiz, featuring a timer, high score tracking, and replay functionality. simulating an API.",
     skills: ["React", "useReducer", "JSON Server", "State Management"],
     demo: "https://reactquizappal.netlify.app/",
     source: "https://github.com/albertozelaya5/reactQuizApp",
@@ -46,14 +44,23 @@ export default [
     source: "https://github.com/albertozelaya5/maptyApp",
   },
   {
-    title: "Shopping list",
-    imageSrc: imgSrc("projects/shoppingList"),
+    title: "Omnidood",
+    imageSrc: imgSrc("projects/omniFood"),
     description:
-      "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
-    skills: ["React", "JSON", "CSS Modules"],
-    demo: "https://shoppinglistreactapp.netlify.app/",
-    source: "https://github.com/albertozelaya5/shoppingList",
+      "Responsive landing page for a smart food subscription service delivering personalized healthy meals.",
+    skills: ["Javascript", "HTML", "CSS"],
+    demo: "https://omnifoodalbertapp.netlify.app",
+    source: "https://github.com/albertozelaya5/omnifood",
   },
+  // {
+  //   title: "Shopping list",
+  //   imageSrc: imgSrc("projects/shoppingList"),
+  //   description:
+  //     "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
+  //   skills: ["React", "JSON", "CSS Modules"],
+  //   demo: "https://shoppinglistreactapp.netlify.app/",
+  //   source: "https://github.com/albertozelaya5/shoppingList",
+  // },
   {
     title: "Bankist landing site",
     imageSrc: imgSrc("projects/bankist"),

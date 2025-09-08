@@ -147,9 +147,14 @@
 /* 640px Approx */
 @media (max-width: 40em) {
   .links {
-    gap: 1.2rem;
+    gap: 1rem;
+  }
+
+  .link {
+    font-size: 2.6rem;
   }
 }
+
 /* 
 - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
