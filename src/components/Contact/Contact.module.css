@@ -60,7 +60,6 @@
 }
 
 /* 832px Approx */
-
 @media (max-width: 52em) {
   .container {
     flex-direction: column;

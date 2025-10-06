@@ -4,8 +4,7 @@ export default [
   {
     title: "usePopcorn App",
     imageSrc: imgSrc("projects/usepopcorn"),
-    description:
-      "Search, rate, and add movies to a personal watchlist, with a public API",
+    description: "Search, rate, and add movies to a personal watchlist, with a public API",
     skills: ["React", "Hooks", "OMDb API", "LocalStorage"],
     demo: "https://usepopcornreact.netlify.app/",
     source: "https://github.com/albertozelaya5/usePopcorn",
@@ -30,8 +29,7 @@ export default [
   {
     title: "React Quiz App",
     imageSrc: imgSrc("projects/reactQuiz"),
-    description:
-      "A dynamic quiz, featuring a timer, high score tracking, and replay functionality. simulating an API.",
+    description: "A dynamic quiz, featuring a timer, high score tracking, and replay functionality. simulating an API.",
     skills: ["React", "useReducer", "JSON Server", "State Management"],
     demo: "https://reactquizappal.netlify.app/",
     source: "https://github.com/albertozelaya5/reactQuizApp",
@@ -46,46 +44,55 @@ export default [
     source: "https://github.com/albertozelaya5/maptyApp",
   },
   {
-    title: "Shopping list",
-    imageSrc: imgSrc("projects/shoppingList"),
+    title: "Omnidood",
+    imageSrc: imgSrc("projects/omniFood"),
     description:
-      "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
-    skills: ["React", "JSON", "CSS Modules"],
-    demo: "https://shoppinglistreactapp.netlify.app/",
-    source: "https://github.com/albertozelaya5/shoppingList",
-  },
-  {
-    title: "Bankist landing site",
-    imageSrc: imgSrc("projects/bankist"),
-    description:
-      "This project was created as a main page concept for a bank, exploring the benefits of a modern interface.",
-    skills: ["Javascript", "DOM", "CSS"],
-    demo: "",
-    source: "https://github.com/albertozelaya5/bakistApp",
-  },
-  {
-    title: "Bankist application",
-    imageSrc: imgSrc("projects/bankistApp"),
-    description:
-      "Banking platform with login protection, allowing users to send and receive transfers, request loans, and with a logout timer.",
-    skills: ["Javascript", "Intl API", "CSS"],
-    demo: "https://timerbankistapp.netlify.app/",
-    source: "https://github.com/albertozelaya5/timerBankistApp",
-  },
-  {
-    title: "Pig game",
-    imageSrc: imgSrc("projects/pigGame"),
-    description: "This is a two-player dice game where the player with the highest score wins.",
+      "Responsive landing page for a smart food subscription service delivering personalized healthy meals.",
     skills: ["Javascript", "HTML", "CSS"],
-    demo: "https://alpiggame.netlify.app/",
-    source: "https://github.com/albertozelaya5/pigGame",
+    demo: "https://omnifoodalbertapp.netlify.app",
+    source: "https://github.com/albertozelaya5/omnifood",
   },
-  {
-    title: "Guess my number",
-    imageSrc: imgSrc("projects/guessNumber"),
-    description: "This is a number guessing game based on scoring.",
-    skills: ["Javascript", "HTML", "CSS"],
-    demo: "https://alguessmynumberapp.netlify.app/",
-    source: "https://github.com/albertozelaya5/guessMyNumberApp",
-  },
+  // {
+  //   title: "Shopping list",
+  //   imageSrc: imgSrc("projects/shoppingList"),
+  //   description:
+  //     "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
+  //   skills: ["React", "JSON", "CSS Modules"],
+  //   demo: "https://shoppinglistreactapp.netlify.app/",
+  //   source: "https://github.com/albertozelaya5/shoppingList",
+  // },
+  // {
+  //   title: "Bankist landing site",
+  //   imageSrc: imgSrc("projects/bankist"),
+  //   description:
+  //     "This project was created as a main page concept for a bank, exploring the benefits of a modern interface.",
+  //   skills: ["Javascript", "DOM", "CSS"],
+  //   demo: "",
+  //   source: "https://github.com/albertozelaya5/bakistApp",
+  // },
+  // {
+  //   title: "Bankist application",
+  //   imageSrc: imgSrc("projects/bankistApp"),
+  //   description:
+  //     "Banking platform with login protection, allowing users to send and receive transfers, request loans, and with a logout timer.",
+  //   skills: ["Javascript", "Intl API", "CSS"],
+  //   demo: "https://timerbankistapp.netlify.app/",
+  //   source: "https://github.com/albertozelaya5/timerBankistApp",
+  // },
+  // {
+  //   title: "Pig game",
+  //   imageSrc: imgSrc("projects/pigGame"),
+  //   description: "This is a two-player dice game where the player with the highest score wins.",
+  //   skills: ["Javascript", "HTML", "CSS"],
+  //   demo: "https://alpiggame.netlify.app/",
+  //   source: "https://github.com/albertozelaya5/pigGame",
+  // },
+  // {
+  //   title: "Guess my number",
+  //   imageSrc: imgSrc("projects/guessNumber"),
+  //   description: "This is a number guessing game based on scoring.",
+  //   skills: ["Javascript", "HTML", "CSS"],
+  //   demo: "https://alguessmynumberapp.netlify.app/",
+  //   source: "https://github.com/albertozelaya5/guessMyNumberApp",
+  // },
 ];
