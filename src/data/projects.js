@@ -61,6 +61,41 @@ export default [
   //   demo: "https://shoppinglistreactapp.netlify.app/",
   //   source: "https://github.com/albertozelaya5/shoppingList",
   // },
+  {
+    title: "Bankist landing site",
+    imageSrc: imgSrc("projects/bankist"),
+    description:
+      "This project was created as a main page concept for a bank, exploring the benefits of a modern interface.",
+    skills: ["Javascript", "DOM", "CSS"],
+    demo: "",
+    source: "https://github.com/albertozelaya5/bakistApp",
+  },
+  {
+    title: "Bankist application",
+    imageSrc: imgSrc("projects/bankistApp"),
+    description:
+      "Banking platform with login protection, allowing users to send and receive transfers, request loans, and with a logout timer.",
+    skills: ["Javascript", "Intl API", "CSS"],
+    demo: "https://timerbankistapp.netlify.app/",
+    source: "https://github.com/albertozelaya5/timerBankistApp",
+  },
+  {
+    title: "Pig game",
+    imageSrc: imgSrc("projects/pigGame"),
+    description: "This is a two-player dice game where the player with the highest score wins.",
+    skills: ["Javascript", "HTML", "CSS"],
+    demo: "https://omnifoodalbertapp.netlify.app",
+    source: "https://github.com/albertozelaya5/omnifood",
+  },
+  // {
+  //   title: "Shopping list",
+  //   imageSrc: imgSrc("projects/shoppingList"),
+  //   description:
+  //     "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
+  //   skills: ["React", "JSON", "CSS Modules"],
+  //   demo: "https://shoppinglistreactapp.netlify.app/",
+  //   source: "https://github.com/albertozelaya5/shoppingList",
+  // },
   // {
   //   title: "Bankist landing site",
   //   imageSrc: imgSrc("projects/bankist"),
