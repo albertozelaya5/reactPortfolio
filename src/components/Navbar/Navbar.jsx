@@ -26,7 +26,9 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a target="_blank" href="/CV-Alberto-Zelaya.pdf">My CV</a>
+            <a target="_blank" href="/Resume-Alberto-Zelaya.pdf">
+              My CV
+            </a>
           </li>
           <li>
             <a href="#about">About</a>

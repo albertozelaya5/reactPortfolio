@@ -26,6 +26,18 @@ export default [
     imageSrc: imgSrc("history/banhcafe"),
   },
   {
+    role: "Freelancer",
+    organization: "Pittsburgh knights",
+    startDate: "Jun, 2022",
+    endDate: "May, 2024",
+    experiences: [
+      "Developed and maintained live data systems, automated tournament platforms, and organization’s official website",
+      "Ensured scalability, performance, and seamless user experience across all digital platforms.",
+      "Collaborated with high-profile partners such as Riot Games to deliver engaging digital experiences.",
+    ],
+    imageSrc: imgSrc("history/pittsburghKnights"),
+  },
+  {
     role: "Live Agent",
     organization: "EarthLink",
     startDate: "Aug, 2021",
