@@ -1,10 +1,9 @@
 import { imgSrc } from "../assets/index";
 
+//? Para buscar mas logos, se puede poner "name logo" en google o visitar https://www.pngegg.com/
+
 export default [
-  {
-    title: "React",
-    imageSrc: imgSrc("skills/react"),
-  },
+  //* 1. Core Languages (La base lógica)
   {
     title: "Javascript",
     imageSrc: imgSrc("skills/javascript"),
@@ -12,6 +11,24 @@ export default [
   {
     title: "Typescript",
     imageSrc: imgSrc("skills/typescript"),
+  },
+  //* 2. Main Framework & State (Tu fuerte principal)
+  {
+    title: "React",
+    imageSrc: imgSrc("skills/react"),
+  },
+  {
+    title: "Zustand",
+    imageSrc: imgSrc("skills/zustand"),
+  },
+  {
+    title: "Redux",
+    imageSrc: imgSrc("skills/redux"),
+  },
+  //* 3. UI & Styling (Maquetación moderna)
+  {
+    title: "Tailwind",
+    imageSrc: imgSrc("skills/tailwind"),
   },
   {
     title: "HTML",
@@ -22,11 +39,16 @@ export default [
     imageSrc: imgSrc("skills/css"),
   },
   {
-    title: "Figma",
-    imageSrc: imgSrc("skills/figma"),
+    title: "Sass",
+    imageSrc: imgSrc("skills/sass"),
+  },
+  //* 4. Tools & Design (Herramientas de entorno)
+  {
+    title: "Git",
+    imageSrc: imgSrc("skills/git"),
   },
   {
-    title: "Tailwind",
-    imageSrc: imgSrc("skills/tailwind"),
+    title: "Figma",
+    imageSrc: imgSrc("skills/figma"),
   },
 ];
