@@ -2,9 +2,17 @@ import { imgSrc } from "../assets";
 
 export default [
   {
+    title: "Fast React Pizza Co.",
+    imageSrc: imgSrc("projects/reactPizza"),
+    description: "Streamlines custom pizza ordering and automates delivery locations via GPS.",
+    skills: ["React", "TypeScript", "Zustand", "React Router", "Tailwind CSS"],
+    demo: "https://react-pizza-zustand.netlify.app/",
+    source: "https://github.com/albertozelaya5/react-pizza-zustand",
+  },
+  {
     title: "usePopcorn App",
     imageSrc: imgSrc("projects/usepopcorn"),
-    description: "Search, rate, and add movies to a personal watchlist, with a public API",
+    description: "Allows users to search, rate, and manage a personal movie watchlist.",
     skills: ["React", "Hooks", "OMDb API", "LocalStorage"],
     demo: "https://usepopcornreact.netlify.app/",
     source: "https://github.com/albertozelaya5/usePopcorn",
@@ -12,7 +20,7 @@ export default [
   {
     title: "Developer site",
     imageSrc: imgSrc("projects/developerSite"),
-    description: "This project was made to explore different APIs and learn how to handle JSON data.",
+    description: "Centralizes diverse API data streams into an interactive dashboard.",
     skills: ["React", "Shadcn/Ui", "Tailwind", "Strapi"],
     demo: "",
     source: "https://github.com/albertozelaya5/developerSite",
@@ -20,8 +28,7 @@ export default [
   {
     title: "Forkify app",
     imageSrc: imgSrc("projects/forkifyApp"),
-    description:
-      "Create and Read operations with asynchronous API calls and follows the MVC architecture, focused on recipes.",
+    description: "Centralizes recipe management through seamless dynamic searching and creation tools.",
     skills: ["Javascript", "API", "MVC"],
     demo: "https://forkify-albertozelaya5.netlify.app/",
     source: "https://github.com/albertozelaya5/forkify-app",
@@ -29,7 +36,7 @@ export default [
   {
     title: "React Quiz App",
     imageSrc: imgSrc("projects/reactQuiz"),
-    description: "A dynamic quiz, featuring a timer, high score tracking, and replay functionality. simulating an API.",
+    description: "Simulates timed dynamic test environments with persistent score tracking.",
     skills: ["React", "useReducer", "JSON Server", "State Management"],
     demo: "https://reactquizappal.netlify.app/",
     source: "https://github.com/albertozelaya5/reactQuizApp",
@@ -37,8 +44,7 @@ export default [
   {
     title: "Mapty App",
     imageSrc: imgSrc("projects/mapty"),
-    description:
-      "This project was built to learn how to use the Leaflet library, logging workouts anywhere in the world.",
+    description: "Logs and tracks fitness activities globally via interactive map interfaces.",
     skills: ["Javascript", "Leaflet", "LocalStorage"],
     demo: "https://workoutmaptyapp.netlify.app/",
     source: "https://github.com/albertozelaya5/maptyApp",
@@ -46,8 +52,7 @@ export default [
   {
     title: "Omnidood",
     imageSrc: imgSrc("projects/omniFood"),
-    description:
-      "Responsive landing page for a smart food subscription service delivering personalized healthy meals.",
+    description: "Automates dietary tracking by delivering personalized, healthy meal plans daily.",
     skills: ["Javascript", "HTML", "CSS"],
     demo: "https://omnifoodalbertapp.netlify.app",
     source: "https://github.com/albertozelaya5/omnifood",
