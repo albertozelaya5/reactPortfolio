@@ -9,53 +9,53 @@ importers:
   .:
     dependencies:
       '@fontsource/outfit':
-        specifier: ^5.2.8
+        specifier: 5.2.8
         version: 5.2.8
       '@fontsource/roboto':
-        specifier: ^5.2.10
+        specifier: 5.2.10
         version: 5.2.10
       prop-types:
-        specifier: ^15.8.1
+        specifier: 15.8.1
         version: 15.8.1
       react:
-        specifier: ^19.2.6
+        specifier: 19.2.6
         version: 19.2.6
       react-dom:
-        specifier: ^19.2.6
+        specifier: 19.2.6
         version: 19.2.6(react@19.2.6)
     devDependencies:
       '@eslint/js':
-        specifier: ^9.39.4
+        specifier: 9.39.4
         version: 9.39.4
       '@types/react':
-        specifier: ^19.2.14
+        specifier: 19.2.14
         version: 19.2.14
       '@types/react-dom':
-        specifier: ^19.2.3
+        specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.14)
       '@vitejs/plugin-react':
-        specifier: ^6.0.1
+        specifier: 6.0.1
         version: 6.0.1(vite@8.0.12)
       eslint:
-        specifier: ^9.39.4
+        specifier: 9.39.4
         version: 9.39.4
       eslint-plugin-react:
-        specifier: ^7.37.5
+        specifier: 7.37.5
         version: 7.37.5(eslint@9.39.4)
       eslint-plugin-react-hooks:
-        specifier: ^7.1.1
+        specifier: 7.1.1
         version: 7.1.1(eslint@9.39.4)
       eslint-plugin-react-refresh:
-        specifier: ^0.5.2
+        specifier: 0.5.2
         version: 0.5.2(eslint@9.39.4)
       globals:
-        specifier: ^17.6.0
+        specifier: 17.6.0
         version: 17.6.0
       vite:
-        specifier: ^8.0.12
+        specifier: 8.0.12
         version: 8.0.12
       vite-plugin-eslint:
-        specifier: ^1.8.1
+        specifier: 1.8.1
         version: 1.8.1(eslint@9.39.4)(vite@8.0.12)
 
 packages:
