@@ -8,4 +8,7 @@
 
   /* fonts */
   --font-robot: "Roboto";
+
+  /* borders */
+  --border-card: 1px solid var(--color-text);
 }
