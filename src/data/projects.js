@@ -1,6 +1,33 @@
 import { imgSrc } from "../assets";
 
 export default [
+  //* REAL WORLD PROJECTS
+  {
+    title: "Enterprise Requirements & Workflow Manager",
+    imageSrc: imgSrc("projects/requirements-program"),
+    description: "Bank-wide task management system with multi-level nested subtasks and dynamic roles.",
+    skills: ["React", "Typescript", "RTK Query", "Redux Toolkit", "DevExtreme", "Styled Components"],
+    demo: "",
+    source: "",
+  },
+  {
+    title: "Legal Portfolio & Analytics System",
+    imageSrc: imgSrc("projects/demands-program"),
+    description: "Tracks multi-stage legal lawsuits and visualizes recovery metrics by branch.",
+    skills: ["React", "DevExtreme", "Styled Components", "React Hook Form", "JavaScript"],
+    demo: "",
+    source: "",
+  },
+  {
+    title: "Banhcafe Open API Portal",
+    imageSrc: imgSrc("projects/developerSite"),
+    description: "Accelerates fintech integration by securely exposing and documenting internal banking APIs.",
+    skills: ["React", "Vite", "Shadcn/Ui", "Tailwind", "Zustand", "Axios"],
+    demo: "",
+    source: "https://github.com/albertozelaya5/developerSite",
+  },
+
+  //* PROJECTS FROM COURSES
   {
     title: "Fast React Pizza Co.",
     imageSrc: imgSrc("projects/reactPizza"),
@@ -10,30 +37,6 @@ export default [
     source: "https://github.com/albertozelaya5/react-pizza-zustand",
   },
   {
-    title: "usePopcorn App",
-    imageSrc: imgSrc("projects/usepopcorn"),
-    description: "Allows users to search, rate, and manage a personal movie watchlist.",
-    skills: ["React", "Hooks", "OMDb API", "LocalStorage"],
-    demo: "https://usepopcornreact.netlify.app/",
-    source: "https://github.com/albertozelaya5/usePopcorn",
-  },
-  {
-    title: "Developer site",
-    imageSrc: imgSrc("projects/developerSite"),
-    description: "Centralizes diverse API data streams into an interactive dashboard.",
-    skills: ["React", "Shadcn/Ui", "Tailwind", "Strapi"],
-    demo: "",
-    source: "https://github.com/albertozelaya5/developerSite",
-  },
-  {
-    title: "Forkify app",
-    imageSrc: imgSrc("projects/forkifyApp"),
-    description: "Centralizes recipe management through seamless dynamic searching and creation tools.",
-    skills: ["Javascript", "API", "MVC"],
-    demo: "https://forkify-albertozelaya5.netlify.app/",
-    source: "https://github.com/albertozelaya5/forkify-app",
-  },
-  {
     title: "React Quiz App",
     imageSrc: imgSrc("projects/reactQuiz"),
     description: "Simulates timed dynamic test environments with persistent score tracking.",
@@ -41,63 +44,4 @@ export default [
     demo: "https://reactquizappal.netlify.app/",
     source: "https://github.com/albertozelaya5/reactQuizApp",
   },
-  {
-    title: "Mapty App",
-    imageSrc: imgSrc("projects/mapty"),
-    description: "Logs and tracks fitness activities globally via interactive map interfaces.",
-    skills: ["Javascript", "Leaflet", "LocalStorage"],
-    demo: "https://workoutmaptyapp.netlify.app/",
-    source: "https://github.com/albertozelaya5/maptyApp",
-  },
-  {
-    title: "Omnidood",
-    imageSrc: imgSrc("projects/omniFood"),
-    description: "Automates dietary tracking by delivering personalized, healthy meal plans daily.",
-    skills: ["Javascript", "HTML", "CSS"],
-    demo: "https://omnifoodalbertapp.netlify.app",
-    source: "https://github.com/albertozelaya5/omnifood",
-  },
-  // {
-  //   title: "Shopping list",
-  //   imageSrc: imgSrc("projects/shoppingList"),
-  //   description:
-  //     "Is a React app to add, edit, and remove products from a list — built to practice basic CRUD and state handling.",
-  //   skills: ["React", "JSON", "CSS Modules"],
-  //   demo: "https://shoppinglistreactapp.netlify.app/",
-  //   source: "https://github.com/albertozelaya5/shoppingList",
-  // },
-  // {
-  //   title: "Bankist landing site",
-  //   imageSrc: imgSrc("projects/bankist"),
-  //   description:
-  //     "This project was created as a main page concept for a bank, exploring the benefits of a modern interface.",
-  //   skills: ["Javascript", "DOM", "CSS"],
-  //   demo: "",
-  //   source: "https://github.com/albertozelaya5/bakistApp",
-  // },
-  // {
-  //   title: "Bankist application",
-  //   imageSrc: imgSrc("projects/bankistApp"),
-  //   description:
-  //     "Banking platform with login protection, allowing users to send and receive transfers, request loans, and with a logout timer.",
-  //   skills: ["Javascript", "Intl API", "CSS"],
-  //   demo: "https://timerbankistapp.netlify.app/",
-  //   source: "https://github.com/albertozelaya5/timerBankistApp",
-  // },
-  // {
-  //   title: "Pig game",
-  //   imageSrc: imgSrc("projects/pigGame"),
-  //   description: "This is a two-player dice game where the player with the highest score wins.",
-  //   skills: ["Javascript", "HTML", "CSS"],
-  //   demo: "https://alpiggame.netlify.app/",
-  //   source: "https://github.com/albertozelaya5/pigGame",
-  // },
-  // {
-  //   title: "Guess my number",
-  //   imageSrc: imgSrc("projects/guessNumber"),
-  //   description: "This is a number guessing game based on scoring.",
-  //   skills: ["Javascript", "HTML", "CSS"],
-  //   demo: "https://alguessmynumberapp.netlify.app/",
-  //   source: "https://github.com/albertozelaya5/guessMyNumberApp",
-  // },
 ];
