@@ -139,6 +139,7 @@ export default [
       meta: [
         { label: ROLE, value: FRONTEND_DEV },
         { label: CLIENT, value: BANHCAFE_INTERNAL },
+        { label: YEAR, value: "2026" },
         { label: TYPE, value: { en: "Web app · Account opening", es: "App web · Apertura de cuentas" } },
       ],
       stats: [
