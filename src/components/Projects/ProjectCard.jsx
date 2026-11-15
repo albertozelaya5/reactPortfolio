@@ -2,6 +2,9 @@ import PropTypes from "prop-types";
 import { useLanguage } from "../../i18n/LanguageContext";
 import styles from "./ProjectCard.module.css";
 
+// Cards show the first few skills so they all keep the same height; the modal lists the full stack
+const MAX_SKILLS = 4;
+
 ProjectCard.propTypes = {
   project: PropTypes.shape({
     title: PropTypes.string.isRequired,
@@ -21,17 +24,20 @@ export function ProjectCard({ project, onMoreInfo }) {
 
   return (
     <div className={styles.container}>
-      <img loading="lazy" className={styles.img} src={imageSrc} alt={`${t("projects.imageOf")} ${title}`} />
+      <img loading="lazy" decoding="async" width="1200" height="750" className={styles.img} src={imageSrc} alt={`${t("projects.imageOf")} ${title}`} />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
-            <li className={styles.skill} key={id}>
-              {skill}
-            </li>
-          );
-        })}
+        {skills.slice(0, MAX_SKILLS).map((skill) => (
+          <li className={styles.skill} key={skill}>
+            {skill}
+          </li>
+        ))}
+        {skills.length > MAX_SKILLS && (
+          <li className={styles.skill} title={skills.slice(MAX_SKILLS).join(", ")}>
+            +{skills.length - MAX_SKILLS}
+          </li>
+        )}
       </ul>
       <div className={styles.links}>
         {demo && (
