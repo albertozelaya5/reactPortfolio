@@ -1,0 +1,373 @@
+@import "../../vars.css";
+
+.dialog {
+  margin: auto;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--color-text);
+  width: min(98rem, calc(100% - 3.2rem));
+  max-height: calc(100dvh - 4.8rem);
+  overflow: visible;
+}
+
+.dialog::backdrop {
+  background: rgba(4, 21, 45, 0.78);
+  backdrop-filter: blur(4px);
+}
+
+.dialog[open] .panel {
+  animation: enter 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateY(1.6rem) scale(0.98);
+  }
+}
+
+.panel {
+  position: relative;
+  max-height: calc(100dvh - 4.8rem);
+  overflow-y: auto;
+  border-radius: 12px;
+  background: linear-gradient(180deg, var(--color-secondary) 0%, var(--color-dark) 32rem);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.5);
+}
+
+.close {
+  position: sticky;
+  top: 1.2rem;
+  margin: 1.2rem 1.2rem -5.2rem auto;
+  z-index: 1;
+  width: 4rem;
+  height: 4rem;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: 50%;
+  background: rgba(4, 21, 45, 0.8);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: background 150ms;
+}
+
+.close:hover,
+.close:focus-visible {
+  background: var(--color-primary);
+}
+
+.close svg {
+  width: 2rem;
+  height: 2rem;
+  stroke: currentColor;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.cover {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 7;
+  object-fit: cover;
+  object-position: top;
+}
+
+.body {
+  padding: 4rem 4.8rem 4.8rem;
+}
+
+/* Centered case-study header */
+.header {
+  max-width: 68rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.eyebrow,
+.heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #a5b4f0;
+}
+
+.title {
+  margin-top: 1.2rem;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+.subtitle {
+  margin-top: 1.6rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.78);
+  text-wrap: balance;
+}
+
+/* Role / Client / Year / Type */
+.meta {
+  margin-top: 4rem;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  border-block: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.metaItem {
+  padding: 2rem 2rem;
+}
+
+.metaItem + .metaItem {
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.metaItem dt {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.metaItem dd {
+  margin-top: 0.6rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+/* Results */
+.stats {
+  margin-top: 3.2rem;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background: rgba(4, 21, 45, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stat strong {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat span {
+  font-size: 1.4rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+/* Two columns */
+.columns {
+  margin-top: 4.8rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: 4.8rem;
+  align-items: start;
+}
+
+.main,
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.aside {
+  padding: 2.4rem;
+  border-radius: 10px;
+  background: rgba(4, 21, 45, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.heading {
+  margin-bottom: 1.2rem;
+}
+
+.text {
+  font-size: 1.8rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.text + .text {
+  margin-top: 1.4rem;
+}
+
+.textSmall {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-left: 2.2rem;
+  font-size: 1.7rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.list li::marker {
+  color: #a5b4f0;
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  list-style: none;
+}
+
+.stack li {
+  font-size: 1.4rem;
+  border-radius: 10rem;
+  background: var(--color-secondary);
+  padding: 0.4rem 1.4rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.action,
+.actionGhost {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 1.7rem;
+  font-weight: 600;
+  border-radius: 10rem;
+  padding: 1rem 2.4rem;
+  border: 2px solid var(--color-primary);
+  transition: filter 150ms;
+}
+
+.action {
+  background: var(--color-primary);
+}
+
+.action:hover,
+.actionGhost:hover {
+  filter: brightness(1.15);
+}
+
+/* Screenshots */
+.gallerySection {
+  margin-top: 4.8rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.6rem;
+}
+
+.gallery a {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 300ms ease;
+}
+
+.gallery a:hover img,
+.gallery a:focus-visible img {
+  transform: scale(1.03);
+}
+
+/* 880px Approx */
+@media (max-width: 55em) {
+  .body {
+    padding: 3.2rem 2.4rem;
+  }
+
+  .meta,
+  .stats {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .metaItem:nth-child(3) {
+    border-left: none;
+  }
+
+  .metaItem:nth-child(n + 3) {
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+}
+
+/* 640px Approx */
+@media (max-width: 40em) {
+  .cover {
+    aspect-ratio: 16 / 9;
+  }
+
+  .title {
+    font-size: 3.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+  }
+
+  .metaItem {
+    padding: 1.6rem 1.2rem;
+  }
+
+  .stat strong {
+    font-size: 3rem;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dialog[open] .panel {
+    animation: none;
+  }
+
+  .gallery img {
+    transition: none;
+  }
+}
