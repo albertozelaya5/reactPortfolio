@@ -121,6 +121,118 @@ export default [
     },
   },
   {
+    title: "Banhcafe Onboarding",
+    imageSrc: imgSrc("projects/onboarding"),
+    description: {
+      en: "Account-opening app that lets branch executives onboard new customers in a guided 6-step flow.",
+      es: "App de apertura de cuentas que guía a los ejecutivos de agencia por un flujo de 6 pasos para dar de alta a clientes nuevos.",
+    },
+    skills: ["React", "React Router", "DevExtreme"],
+    demo: "https://deluxe-crostata-b4a742.netlify.app/",
+    source: "",
+    details: {
+      eyebrow: { en: "Case study · Demo with test data", es: "Caso de estudio · Demo con datos de prueba" },
+      subtitle: {
+        en: "A guided flow that takes a new customer from identity check to a registered account in the bank's core system, at the branch desk.",
+        es: "Un flujo guiado que lleva a un cliente nuevo desde la verificación de identidad hasta una cuenta registrada en el core del banco, desde el escritorio de la agencia.",
+      },
+      meta: [
+        { label: ROLE, value: FRONTEND_DEV },
+        { label: CLIENT, value: BANHCAFE_INTERNAL },
+        { label: TYPE, value: { en: "Web app · Account opening", es: "App web · Apertura de cuentas" } },
+      ],
+      stats: [
+        {
+          value: "6",
+          label: {
+            en: "Guided steps, from identity check to digital signature",
+            es: "Pasos guiados, desde la verificación de identidad hasta la firma digital",
+          },
+        },
+        {
+          value: "3",
+          label: {
+            en: "Government checks: national registry (RNP), credit bureau (CNBS) and tax ID (SAR)",
+            es: "Consultas oficiales: registro nacional (RNP), central de riesgos (CNBS) y RTN (SAR)",
+          },
+        },
+        {
+          value: "3",
+          label: {
+            en: "Photos taken with the device camera for biometric validation",
+            es: "Fotos tomadas con la cámara del equipo para la validación biométrica",
+          },
+        },
+        {
+          value: "6",
+          label: {
+            en: "Account products: payroll, remittances, loan payments and local, international and VIP debit",
+            es: "Productos de cuenta: planilla, remesas, pago de préstamos y débito local, internacional y VIP",
+          },
+        },
+      ],
+      overview: [
+        {
+          en: "Opening an account at a branch means checking who the customer is, collecting their information and setting up the right products, with legal authorizations along the way.",
+          es: "Abrir una cuenta en agencia implica verificar quién es el cliente, recopilar su información y configurar los productos correctos, con autorizaciones legales en el camino.",
+        },
+        {
+          en: "Banhcafe Onboarding puts that process in one guided flow for branch executives. Each step validates what it needs before the next one unlocks, and the account ends up registered in the bank's core system.",
+          es: "Banhcafe Onboarding reúne ese proceso en un solo flujo guiado para los ejecutivos de agencia. Cada paso valida lo que necesita antes de habilitar el siguiente, y la cuenta termina registrada en el core del banco.",
+        },
+      ],
+      highlights: [
+        {
+          en: "The customer authorizes the registry and credit-bureau checks before the identity search is enabled.",
+          es: "El cliente autoriza las consultas al RNP y a la central de riesgos antes de que se habilite la búsqueda de identidad.",
+        },
+        {
+          en: "Biometric validation with 3 photos taken from the front or rear camera.",
+          es: "Validación biométrica con 3 fotos tomadas con la cámara frontal o trasera.",
+        },
+        {
+          en: "Work and business information, tax ID lookup in the SAR, account purpose, source of income and three references.",
+          es: "Información laboral o del negocio, consulta del RTN en el SAR, propósito de la cuenta, fuente de ingresos y tres referencias.",
+        },
+        {
+          en: "Phone and email are verified with a code the customer receives.",
+          es: "El teléfono y el correo se verifican con un código que recibe el cliente.",
+        },
+        {
+          en: "Product setup with beneficiaries whose percentages must add up to 100%.",
+          es: "Configuración de productos con beneficiarios cuyos porcentajes deben sumar 100%.",
+        },
+        {
+          en: "Digital signature and registration of the new customer in the core banking system.",
+          es: "Firma digital y alta del cliente nuevo en el core bancario.",
+        },
+      ],
+      role: {
+        en: "Frontend developer: I built features across the 6-step flow, its validations and the integrations with the identity, credit and tax checks.",
+        es: "Desarrollador frontend: construí funcionalidades en los 6 pasos del flujo, sus validaciones y las integraciones con las consultas de identidad, crédito y tributarias.",
+      },
+      stack: ["React", "React Router", "DevExtreme"],
+      gallery: [
+        {
+          src: imgSrc("projects/onboarding/login"),
+          alt: { en: "Branch executive sign-in", es: "Inicio de sesión del ejecutivo de agencia" },
+        },
+        {
+          src: imgSrc("projects/onboarding/identity"),
+          alt: { en: "Legal authorizations and identity check", es: "Autorizaciones legales y consulta de identidad" },
+        },
+        {
+          src: imgSrc("projects/onboarding/biometrics"),
+          alt: { en: "Biometric validation with 3 photos", es: "Validación biométrica con 3 fotos" },
+        },
+        {
+          src: imgSrc("projects/onboarding/information"),
+          alt: { en: "Customer contact and personal information", es: "Datos personales y de contacto del cliente" },
+        },
+      ],
+    },
+  },
+  {
     title: {
       en: "Enterprise Requirements & Workflow Manager",
       es: "Gestor Empresarial de Requerimientos y Flujos",
