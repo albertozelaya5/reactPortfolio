@@ -16,6 +16,7 @@ export default {
 
     "experience.title": "Experience",
     "experience.logo": "logo",
+    "experience.seeMore": "See more",
 
     "projects.title": "Projects",
     "projects.imageOf": "Image of",
@@ -29,7 +30,7 @@ export default {
     "modal.overview": "Overview",
     "modal.delivers": "What it delivers",
     "modal.role": "My role",
-    "modal.stack": "Built with",
+    "modal.stack": "Technologies used",
     "modal.visit": "Visit site",
     "modal.screens": "Screens",
     "modal.openFull": "Open full size",
@@ -68,6 +69,7 @@ export default {
 
     "experience.title": "Experiencia",
     "experience.logo": "logo",
+    "experience.seeMore": "Ver más",
 
     "projects.title": "Proyectos",
     "projects.imageOf": "Imagen de",
@@ -81,7 +83,7 @@ export default {
     "modal.overview": "Resumen",
     "modal.delivers": "Qué aporta",
     "modal.role": "Mi rol",
-    "modal.stack": "Hecho con",
+    "modal.stack": "Tecnologías utilizadas",
     "modal.visit": "Visitar sitio",
     "modal.screens": "Pantallas",
     "modal.openFull": "Abrir en tamaño completo",

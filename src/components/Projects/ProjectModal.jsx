@@ -52,7 +52,9 @@ export function ProjectModal({ project, onClose }) {
             </svg>
           </button>
 
-          <img className={styles.cover} src={project.imageSrc} alt={`${t("modal.screenshotOf")} ${project.title}`} />
+          {details.cover !== false && (
+            <img className={styles.cover} src={project.imageSrc} alt={`${t("modal.screenshotOf")} ${project.title}`} />
+          )}
 
           <div className={styles.body}>
             <header className={styles.header}>
@@ -87,18 +89,20 @@ export function ProjectModal({ project, onClose }) {
 
             <div className={styles.columns}>
               <div className={styles.main}>
-                <section>
-                  <h4 className={styles.heading}>{t("modal.overview")}</h4>
-                  {details.overview.map((paragraph, i) => (
-                    <p key={i} className={styles.text}>
-                      {paragraph}
-                    </p>
-                  ))}
-                </section>
+                {details.overview?.length > 0 && (
+                  <section>
+                    <h4 className={styles.heading}>{t("modal.overview")}</h4>
+                    {details.overview.map((paragraph, i) => (
+                      <p key={i} className={styles.text}>
+                        {paragraph}
+                      </p>
+                    ))}
+                  </section>
+                )}
 
                 {details.highlights?.length > 0 && (
                   <section>
-                    <h4 className={styles.heading}>{t("modal.delivers")}</h4>
+                    <h4 className={styles.heading}>{details.highlightsLabel ?? t("modal.delivers")}</h4>
                     <ul className={styles.list}>
                       {details.highlights.map((item, i) => (
                         <li key={i}>{item}</li>
@@ -118,7 +122,7 @@ export function ProjectModal({ project, onClose }) {
 
                 {details.stack?.length > 0 && (
                   <section>
-                    <h4 className={styles.heading}>{t("modal.stack")}</h4>
+                    <h4 className={styles.heading}>{details.stackLabel ?? t("modal.stack")}</h4>
                     <ul className={styles.stack}>
                       {details.stack.map((tech) => (
                         <li key={tech}>{tech}</li>

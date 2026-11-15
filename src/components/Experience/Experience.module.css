@@ -107,13 +107,48 @@
 
 /* List items */
 .listItem {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   line-height: 1.5;
   margin-top: 0.016rem;
 }
 .listItem:first-child {
   margin-top: 0;
+}
+
+.seeMore {
+  margin-top: 1.6rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-text);
+  background: transparent;
+  border: 2px solid var(--color-text);
+  border-radius: 10rem;
+  padding: 0.4rem 1.6rem;
+  cursor: pointer;
+  transition:
+    background 150ms,
+    color 150ms;
+}
+
+.seeMore:hover,
+.seeMore:focus-visible {
+  background: var(--color-text);
+  color: var(--color-dark);
+}
+
+.seeMore svg {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 /* Screen resolutions */
