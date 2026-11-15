@@ -1,42 +1,36 @@
 import PropTypes from "prop-types";
+import { useLanguage } from "../../i18n/LanguageContext";
 import styles from "./About.module.css";
 
 export const About = () => {
+  const { t } = useLanguage();
+
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>{t("about.title")}</h2>
       <div className={styles.content}>
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <Icon iconName="cursor" />
             <div className={styles.aboutItemText}>
-              <h3>Enterprise Frontend Engineering</h3>
-              <p>
-                Specialized in building high-performance, secure, and scalable web applications using React and
-                TypeScript, handling complex business logic for regulated sectors.
-              </p>
+              <h3>{t("about.engineering.title")}</h3>
+              <p>{t("about.engineering.text")}</p>
             </div>
           </li>
 
           <li className={styles.aboutItem}>
             <Icon iconName="clock" />
             <div className={styles.aboutItemText}>
-              <h3>Optimization & Best Practices</h3>
-              <p>
-                Driven by sub-second rendering, state optimization (Redux/Zustand), and backend caching (RTK Query) to
-                deliver clean, highly reusable, and production-ready code.
-              </p>
+              <h3>{t("about.optimization.title")}</h3>
+              <p>{t("about.optimization.text")}</p>
             </div>
           </li>
 
           <li className={styles.aboutItem}>
             <Icon iconName="layout" />
             <div className={styles.aboutItemText}>
-              <h3>Figma-to-Code Integration</h3>
-              <p>
-                Experienced in bridging the gap between UX/UI design and engineering, translating complex Figma mockups
-                into interactive, pixel-perfect, and responsive interfaces.
-              </p>
+              <h3>{t("about.figma.title")}</h3>
+              <p>{t("about.figma.text")}</p>
             </div>
           </li>
         </ul>

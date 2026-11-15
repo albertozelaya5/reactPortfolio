@@ -1,0 +1,2 @@
+# pnpm 12 misreads the lockfile with CRLF endings; keep it LF on Windows too
+pnpm-lock.yaml text eol=lf
