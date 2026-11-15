@@ -37,6 +37,43 @@
   text-decoration: none;
 }
 
+.menuItems {
+  align-items: center;
+}
+
+/* Language switch: EN | ES */
+.language {
+  display: flex;
+  padding: 0.3rem;
+  border-radius: 10rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.languageBtn {
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.75);
+  background: transparent;
+  border: none;
+  border-radius: 10rem;
+  padding: 0.4rem 1.2rem;
+  cursor: pointer;
+  transition:
+    background 150ms,
+    color 150ms;
+}
+
+.languageBtn:hover {
+  color: var(--color-text);
+}
+
+.languageActive {
+  background: var(--color-primary);
+  color: var(--color-text);
+}
+
 /* 1250px Approx */
 @media (max-width: 78em) {
   .menuItems {
