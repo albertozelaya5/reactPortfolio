@@ -18,15 +18,18 @@ export function ProjectCard({ project: { title, imageSrc, description, skills, d
       <img loading="lazy" className={styles.img} src={imageSrc} alt={`Image of ${title}`} />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
+
       <ul className={styles.skills}>
-        {skills.map((skill, id) => {
+        {skills.map(({ label, icon: Icon }) => {
           return (
-            <li className={styles.skill} key={id}>
-              {skill}
+            <li className={styles.skill} key={label}>
+              {Icon && <Icon />}
+              {label && <span>{label}</span>}
             </li>
           );
         })}
       </ul>
+
       <div className={styles.links}>
         {demo && (
           <a target="_blank" className={styles.link} href={demo}>
