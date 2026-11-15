@@ -127,7 +127,7 @@ export default [
       en: "Account-opening app that lets branch executives onboard new customers in a guided 6-step flow.",
       es: "App de apertura de cuentas que guía a los ejecutivos de agencia por un flujo de 6 pasos para dar de alta a clientes nuevos.",
     },
-    skills: ["React", "React Router", "DevExtreme"],
+    skills: ["React", "React Hook Form", "Zod", "Zustand", "React Router", "DevExtreme"],
     demo: "https://deluxe-crostata-b4a742.netlify.app/",
     source: "",
     details: {
@@ -211,7 +211,7 @@ export default [
         en: "Frontend developer: I built features across the 6-step flow, its validations and the integrations with the identity, credit and tax checks.",
         es: "Desarrollador frontend: construí funcionalidades en los 6 pasos del flujo, sus validaciones y las integraciones con las consultas de identidad, crédito y tributarias.",
       },
-      stack: ["React", "React Router", "DevExtreme"],
+      stack: ["React", "React Router", "React Hook Form", "Zod", "Zustand", "DevExtreme"],
       gallery: [
         {
           src: imgSrc("projects/onboarding/login"),
