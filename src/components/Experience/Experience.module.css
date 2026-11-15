@@ -34,6 +34,9 @@
   flex-direction: column;
   align-items: center;
   gap: 1.2rem;
+  /* Same level as .historyItem, so the hero's blurred circles stay behind */
+  position: relative;
+  z-index: 1;
 }
 
 .skillImageContainer {
